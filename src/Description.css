@@ -1,0 +1,19 @@
+.Description .weather-icon {
+  position: relative;
+  top: -10px;
+  height: 64px;
+  width: 64px;
+}
+
+.Description .units {
+  color: #bbbfc3;
+  position: relative;
+  top: -30px;
+  left: -10px;
+}
+.Description .temperature {
+  color: #dedede;
+  font-size: 44px;
+  font-weight: 400px;
+  line-height: 1;
+}
