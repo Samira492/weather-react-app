@@ -1,22 +1,23 @@
 import React from "react";
+import ReactAnimatedWeather from "react-animated-weather";
 
 import "./Description.css";
 
 export default function Description() {
   let weatherData = {
     temperature: 19,
-    imgUrl: "https://ssl.gstatic.com/onebox/weather/64/sunny.png",
     humidity: 80,
     wind: 10,
   };
   return (
     <div className="Description">
-      <div className="row">
+      <div className="row mb-5">
         <div className="col-6">
-          <img
-            src={weatherData.imgUrl}
-            alt="Sunny icon"
-            className="weather-icon"
+          <ReactAnimatedWeather
+            icon="CLOUDY"
+            color="#ffffff"
+            size={48}
+            animate={true}
           />
           <span className="temperature">{weatherData.temperature}</span>
           <span className="units">°C</span>

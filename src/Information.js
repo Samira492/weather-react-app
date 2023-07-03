@@ -6,7 +6,7 @@ export default function Information() {
   let weatherData = {
     city: "Tehran",
     date: "Fri 21:28",
-    description: "Clear Sky",
+    description: "Cloudy",
   };
   return (
     <div className="Information">
