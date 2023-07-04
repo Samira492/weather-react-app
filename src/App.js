@@ -2,18 +2,20 @@ import Form from "./Form";
 import Description from "./Description";
 import Information from "./Information";
 import Forecast from "./Forecast";
+import Footer from "./Footer";
 
 import "./App.css";
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <Form />
-      <Information />
-      <Description />
-      <Forecast />
+    <div>
+      <div className="App">
+        <Form />
+        <Information />
+        <Description />
+        <Forecast />
+      </div>
+      <Footer />
     </div>
   );
 }
-
-export default App;
