@@ -14,6 +14,7 @@ export default function App() {
             href="https://github.com/Samira492/weather-react-app"
             target="_blank"
             rel="noreferrer"
+            className="text-decoration-none text-reset"
           >
             open-sourced on GitHub
           </a>
